@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <params>
+  <param name="send_emails" type="list" default="0" label="Send notification emails to the administrator?" description="Lets the administrator decide if the emails are to be sent when new OERs submitted">
+  <option value="0">No</option>
+  <option value="1">Yes</option>
+  </param>
+  <param name="email_from" type="text" default="0" label="Sender's email address " description="Please provide the email address of the sender" size="40" />
+  <param name="admin_email" type="text" default="0" label="Administrator's email " description="Please provide the email address of the administrator" size="40" />
+  <param name="file_types" type="text" default="doc, ppt" label="Valid file types for OERs " description="Valid file types for OERs" size="40" />
+  </params>
+</config>
